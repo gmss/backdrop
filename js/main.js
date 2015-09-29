@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
 
-	var backgrounds = [ DNA ],
+	var backgrounds = [ Div('gmss-logo', 5000), DNA/*, Words*/ ],
 		nextBackground = -1;
 
 	function bg() {

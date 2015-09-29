@@ -1,11 +1,20 @@
 var facts = [
-	{
-		text: 'Nobody knows how there are tomatoes.'
-	},
-	{
-		text: 'Monsanto have made three attempts to engineer a money plant.'
-	},
-	{
-		text: 'The Future Of Food is poo.'
-	}
+	'Nobody knows how there are tomatoes.',
+	'Monsanto have made three attempts to engineer a money plant.',
+	'The Future Of Food is poo.',
+	'A genetically modified carrot can fly at speeds of 75mph.',
+	'We are running out of wheat&nbsp;&mdash; over 90% of all the wheat ever grown has been eaten or thrown away.',
+	'Most food is eaten by animals, including humans.',
+	'Fish are the only creature that eats fish food.',
+	'The best food is bacon. The best vegetable is the butternut squash.',
+	'You would need to drink eight glasses of wine for it to count as one of your five-a-day.',
+	'Man cannot live on bread alone, but can sell bread to buy other foods.',
+	'The word &lsquo;baguette&rsquo; literally means &lsquo;the bag is too small for this bread&rsquo;.',
+	'An army marches on its stomach, if that army happens to be entirely molluscs.',
+	'There is no such thing as a fish.',
+	'Technically, a tomato is a fruit. Also, most sentences are true for a given value of &lsquo;technically&rsquo;.',
+	'You share 98% of your DNA with a banana, compared to the average for normal humans, which is 42%.',
+	'The person next to you would probably eat you if it came to it.',
+	'All animals are made of food in at least one sense.',
+	'Food was invented by Sir Henry Weetabix in 1742.'
 ];

@@ -9,7 +9,7 @@
 	transition: opacity 1.6s;
 
 	&.preon {
-		animation: slowzoom 10s linear;
+		animation: slowzoom 20s linear;
 	}
 
 	position: absolute;
@@ -21,9 +21,10 @@
 	text-align: center;
 	display: flex;
 	align-items: center;
-	align-content: center;
+	justify-content: center;
 	#fact-text {
-		flex: 1;
+		flex: 0 0 auto;
+		max-width: 100vmin;
 		color: yellow;
 		font-size: 7vmin;
 	}
@@ -36,6 +37,6 @@
 	}
 	to {
 		// zoom: 1.1;
-		transform: scale(1.1);
+		transform: scale(1.3);
 	}
 }

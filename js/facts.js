@@ -10,8 +10,14 @@ var Facts = (function () {
 		factText = document.getElementById('fact-text');
 	});
 
-	facts.forEach(function(fact) {
-		fact.life = fact.text.length * 100 + factDeathTime;
+	facts = facts.map(function(fact) {
+		return {
+			text: fact,
+			life: fact.length * 100 + factDeathTime,
+			order: Math.random()
+		};
+	}).sort(function(a, b) {
+		return a.order - b.order;
 	});
 
 	function show(callback) {

@@ -1,0 +1,62 @@
+---
+---
+
+$red: #f00;
+$orange: #ff8f61;
+$yellow: #ff0;
+$white: #fff;
+$black: #000;
+
+$width: 80vw;
+
+#gmss-logo {
+	opacity: 0;
+	&.on {
+		opacity: 1;
+	}
+	transition: opacity 1.2s;
+	width: $width;
+	left: (100vw - $width) / 2;
+	height: $width * 252 / 630;
+	top: calc(50vh - #{$width} * 252 / 1260);
+	position: absolute;
+	background: url('/img/logo.png') no-repeat 100% 50%;
+	background-size: contain;
+	overflow: hidden;
+	position: relative;
+	a {
+		width: $width;
+		text-decoration: none;
+		min-height: $width * 252 / 630;
+		left: -0.00632 * $width;
+		span {
+			text-transform: uppercase;
+			line-height: 1.5em;
+			position: absolute;
+			display: block;
+			&.greater {
+				color: $red;
+				left: 0.00316 * $width;
+				top: 0.00777 * $width;
+				font-size: 0.05789 * $width;
+			}
+			&.manchester {
+				color: $orange;
+				top: 0.03750 * $width;
+				font-size: 0.11403 * $width;
+			}
+			&.skeptics {
+				color: $white;
+				top: 0.10126 * $width;
+				font-size: 0.17543 * $width;
+			}
+			&.society {
+				color: $red;
+				top: 0.27900 * $width;
+				font-size: 0.05789 * $width;
+				right: 0.33684 * $width;
+			}
+		}
+		display: block;
+	}
+}
