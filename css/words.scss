@@ -1,0 +1,38 @@
+---
+---
+$word-width: 30vw;
+$word-height: 20vw;
+
+#words {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: calc(100% - #{$word-width});
+	height: calc(100% - #{$word-height});
+	font-size: 8vmin;
+	padding: 0;
+	margin: 0;
+	div {
+		position: absolute;
+		font-size: 8vmin;
+		color: yellow;
+		width: $word-width;
+		height: $word-height;
+		animation: blur-in 3s;
+		text-align: center;
+		opacity: 0;
+		&.on {
+			opacity: 1;
+		}
+		transition: opacity 800ms;
+	}
+}
+
+@keyframes blur-in {
+	from {
+		filter: blur(1em);
+	}
+	to {
+		filter: blur(0);
+	}
+}
