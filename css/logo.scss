@@ -20,7 +20,7 @@ $width: 80vw;
 	height: $width * 252 / 630;
 	top: calc(50vh - #{$width} * 252 / 1260);
 	position: absolute;
-	background: url('/img/logo.png') no-repeat 100% 50%;
+	background: url('../img/logo.png') no-repeat 100% 50%;
 	background-size: contain;
 	overflow: hidden;
 	position: relative;
