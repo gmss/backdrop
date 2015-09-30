@@ -9,12 +9,24 @@ $black: #000;
 
 $width: 80vw;
 
-#gmss-logo {
+.logo {
 	opacity: 0;
 	&.on {
 		opacity: 1;
 	}
 	transition: opacity 1.2s;
+	position: absolute;
+}
+
+#mosi-logo {
+	background: url('../img/logo-mosi.png') no-repeat 50% 50%;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+#gmss-logo {
 	width: $width;
 	left: (100vw - $width) / 2;
 	height: $width * 252 / 630;
