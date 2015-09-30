@@ -16,5 +16,8 @@ var facts = [
 	'You share 98% of your DNA with a banana, compared to the average for normal humans, which is 42%.',
 	'The person next to you would probably eat you if it came to it.',
 	'All animals are made of food in at least one sense.',
-	'Food was invented by Sir Henry Weetabix in 1742.'
+	'Food was invented by Sir Henry Weetabix in 1742.',
+	'Humans get more than half of their daily nutrients from food.',
+	'If you laid all the world&rsquo;s bananas end to end, they would make a fairly small circle.',
+	'The healthiest diet is one of vegan raw food. Although having committed to raw-foodism, veganism is really just a sensible food hygiene precaution.'
 ];

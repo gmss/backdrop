@@ -38,7 +38,7 @@ var DNA = (function() {
 			table.appendChild(row);
 		}
 		interval = setInterval(function() {
-			if (Math.random() < lineWeight) {
+			if (Math.random() < lineWeight * across / down) {
 				var x = Math.floor(Math.random() * across);
 				for (var y = 0; y < down; ++y) (function(y) {
 					setTimeout(function() {
@@ -48,7 +48,7 @@ var DNA = (function() {
 			} else
 				cells[Math.floor(Math.random() * down)]
 					[Math.floor(Math.random() * across)].light();
-		}, actionInterval);
+		}, actionInterval * (perSide * perSide) / (across * down));
 	}
 
 	function stop() {
