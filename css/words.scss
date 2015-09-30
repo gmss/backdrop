@@ -1,5 +1,11 @@
 ---
 ---
+$red: #f00;
+$orange: #ff8f61;
+$yellow: #ff0;
+$white: #fff;
+$black: #000;
+
 $word-width: 30vw;
 $word-height: 20vw;
 
@@ -15,7 +21,7 @@ $word-height: 20vw;
 	div {
 		position: absolute;
 		font-size: 8vmin;
-		color: yellow;
+		color: $orange;
 		width: $word-width;
 		height: $word-height;
 		text-align: center;
@@ -25,6 +31,12 @@ $word-height: 20vw;
 			animation: blur-in 3s;
 		}
 		transition: opacity 800ms;
+	}
+	div:nth-child(3n+1) {
+		color: $white;
+	}
+	div:nth-child(3n+2) {
+		color: $red;
 	}
 }
 
