@@ -18,17 +18,20 @@ $width: 80vw;
 	position: absolute;
 }
 .img-logo {
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
+	top: 10%;
+	left: 10%;
+	width: 80%;
+	height: 80%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
 }
 
 #mosi-logo {
-	background: url('../img/logo-mosi.png') no-repeat 50% 50%;
+	background-image: url('../img/logo-mosi.png');
 }
 #msf-logo {
-	background: url('../img/logo-msf.png') no-repeat 50% 50%;
+	background-image: url('../img/logo-msf.png');
 }
 
 #gmss-logo {
