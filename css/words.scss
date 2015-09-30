@@ -18,11 +18,11 @@ $word-height: 20vw;
 		color: yellow;
 		width: $word-width;
 		height: $word-height;
-		animation: blur-in 3s;
 		text-align: center;
 		opacity: 0;
 		&.on {
 			opacity: 1;
+			animation: blur-in 3s;
 		}
 		transition: opacity 800ms;
 	}
