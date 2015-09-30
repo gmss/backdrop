@@ -17,13 +17,18 @@ $width: 80vw;
 	transition: opacity 1.2s;
 	position: absolute;
 }
-
-#mosi-logo {
-	background: url('../img/logo-mosi.png') no-repeat 50% 50%;
+.img-logo {
 	top: 0;
 	left: 0;
 	width: 100%;
 	height: 100%;
+}
+
+#mosi-logo {
+	background: url('../img/logo-mosi.png') no-repeat 50% 50%;
+}
+#msf-logo {
+	background: url('../img/logo-msf.png') no-repeat 50% 50%;
 }
 
 #gmss-logo {

@@ -1,6 +1,15 @@
 document.addEventListener('DOMContentLoaded', function() {
 
-	var backgrounds = [ Div('mosi-logo', 5000), Words, Div('gmss-logo', 5000), DNA ],
+	var backgrounds = [ 
+			Div('mosi-logo', 5000),
+			Words,
+			Div('gmss-logo', 5000),
+			DNA,
+			Div('msf-logo', 5000),
+			Words,
+			Div('gmss-logo', 5000),
+			DNA
+		],
 		nextBackground = -1;
 
 	function bg() {
