@@ -1,7 +1,7 @@
 var DNA = (function() {
 
 	var table,
-		cellOnTime = 400,
+		cellOnTime = 100,
 		actionInterval = 30,
 		lineWeight = .15,
 		lineDelay = 100,

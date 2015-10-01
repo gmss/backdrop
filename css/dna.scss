@@ -17,12 +17,11 @@
 		text-align: center;
 		color: black;
 		&.on {
-			color: white;
+			animation: on-colours 200ms linear;
 		}
 		&.off {
 			animation: colours 2s linear;
 		}
-		transition: color 100ms;
 	}
 }
 
@@ -38,5 +37,17 @@
 	}
 	to {
 		color: black;
+	}
+}
+
+@keyframes on-colours {
+	from {
+		color: black;
+	}
+	50% {
+		color: white;
+	}
+	to {
+		color: white;
 	}
 }
