@@ -43,8 +43,10 @@ $word-height: 20vw;
 @keyframes blur-in {
 	from {
 		filter: blur(1em);
+		-webkit-filter: blur(1em);
 	}
 	to {
 		filter: blur(0);
+		-webkit-filter: blur(0);
 	}
 }
