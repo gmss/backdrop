@@ -19,10 +19,12 @@
 	height: 100%;
 
 	text-align: center;
+	display: -webkit-flex;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	#fact-text {
+		-webkit-flex: 0 0 auto;
 		flex: 0 0 auto;
 		max-width: 100vmin;
 		color: yellow;
