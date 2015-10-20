@@ -23,6 +23,8 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	-webkit-align-items: center;
+	-webkit-justify-content: center;
 	#fact-text {
 		-webkit-flex: 0 0 auto;
 		flex: 0 0 auto;
